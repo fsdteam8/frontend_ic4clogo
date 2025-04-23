@@ -135,8 +135,8 @@ export default function Home() {
       </section>
 
       {/* Second  Content */}
-      <section className="relative w-full bg-gradient-to-b from-[#2D5E69] to-[#D7F8FF] overflow-visible rounded-t-[15px] md:rounded-t-[40px] h-[900px] md:h-[750px] z-[-10] mt-[170px]">
-        <div className="container mx-auto mt-[80px] md:mt-[200px] flex flex-col md:flex-row items-center gap-8">
+      <section className="relative w-full bg-gradient-to-b from-[#2D5E69] to-[#D7F8FF] overflow-visible rounded-t-[15px] md:rounded-t-[40px] h-[1100px] sm:h-[1200px] md:h-[870px] lg:h-[850px] z-[-10] mt-[170px]">
+        <div className="container mx-auto mt-[220px] sm:mt-[350px] md:mt-[350px] lg:mt-[300px] flex flex-col md:flex-row items-center gap-8">
           <div className="md:w-1/2 space-y-6">
             <div className="space-y-4">
               <p className="text-xl leading-relaxed">
