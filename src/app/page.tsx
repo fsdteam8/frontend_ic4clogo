@@ -23,7 +23,7 @@ export default function Home() {
   const [open, setOpen] = useState(false);
   return (
     <div className="flex flex-col min-h-screen relative z-0">
-      <section className="relative w-full bg-gradient-to-b from-[#D7F8FF] to-[#2D5E69] overflow-visible rounded-b-[15px] md:rounded-b-[40px] h-[600px] md:h-[716px] z-0">
+      <section className="relative w-full bg-gradient-to-b from-[#D7F8FF] to-[#2D5E69] overflow-visible rounded-b-[15px] md:rounded-b-[40px] h-[500px] md:h-[600px] z-0">
         <div className="container mx-auto  relative z-10">
           <nav className="py-4">
             <div className="flex justify-between items-center">
@@ -135,8 +135,8 @@ export default function Home() {
       </section>
 
       {/* Second  Content */}
-      <section className="relative w-full bg-gradient-to-b from-[#2D5E69] to-[#D7F8FF] overflow-visible rounded-t-[15px] md:rounded-t-[40px] h-[1000px] md:h-[750px] z-[-10] mt-[170px]">
-        <div className="container mx-auto mt-[200px] flex flex-col md:flex-row items-center gap-8">
+      <section className="relative w-full bg-gradient-to-b from-[#2D5E69] to-[#D7F8FF] overflow-visible rounded-t-[15px] md:rounded-t-[40px] h-[900px] md:h-[750px] z-[-10] mt-[170px]">
+        <div className="container mx-auto mt-[80px] md:mt-[200px] flex flex-col md:flex-row items-center gap-8">
           <div className="md:w-1/2 space-y-6">
             <div className="space-y-4">
               <p className="text-xl leading-relaxed">
