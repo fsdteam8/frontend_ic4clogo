@@ -23,7 +23,7 @@ export default function Home() {
   const [open, setOpen] = useState(false);
   return (
     <div className="flex flex-col min-h-screen relative z-0">
-      <section className="relative w-full bg-gradient-to-b from-[#D7F8FF] to-[#2D5E69] overflow-visible rounded-b-[15px] md:rounded-b-[40px] h-[500px] md:h-[600px] z-0">
+      <section className="relative w-full bg-gradient-to-b from-[#D7F8FF] to-[#2D5E69] overflow-visible rounded-b-[15px] md:rounded-b-[40px] h-[500px] md:h-[650px] z-0">
         <div className="container mx-auto  relative z-10">
           <nav className="py-4">
             <div className="flex justify-between items-center">
@@ -112,10 +112,10 @@ export default function Home() {
 
           {/* Text Content */}
           <div className=" md:pt-8 pb-8 text-center">
-            <h1 className="text-[38px] md:text-[56px] font-[700] text-[#265661] mb-4">
+            <h1 className="text-[38px] lg:text-[56px] font-[700] text-[#265661] mb-4">
               Protecting Our Children&apos;s Future
             </h1>
-            <p className="text-[26px] md:text-[32px] font-[400] text-[#D3DDDF]">
+            <p className="text-[26px] lg:text-[32px] font-[400] text-[#D3DDDF]">
               Join the International Coalition4Children in safeguarding parental
               rights and children&apos;s innocence
             </p>
@@ -123,7 +123,7 @@ export default function Home() {
         </div>
 
         {/* Hero Image Positioned to Overlap Main Section */}
-        <div className="absolute bottom-1 left-1/2 transform -translate-x-1/2 translate-y-[90%] md:translate-y-[66%] lg:h-[517px] z-20 w-full md:max-w-[1150px] px-6 md:px-auto">
+        <div className="absolute bottom-1 left-1/2 transform -translate-x-1/2 translate-y-[90%] md:translate-y-[66%] lg:h-[517px]  z-20 w-full md:max-w-[1150px] px-6 md:px-auto">
           <Image
             src="/hero.jpeg"
             alt="Hands together symbolizing protection"
