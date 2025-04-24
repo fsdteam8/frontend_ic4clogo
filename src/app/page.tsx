@@ -125,7 +125,7 @@ export default function Home() {
         {/* Hero Image Positioned to Overlap Main Section */}
         <div className="absolute bottom-1 left-1/2 transform -translate-x-1/2 translate-y-[90%] md:translate-y-[66%] lg:h-[517px]  z-20 w-full md:max-w-[1150px] px-6 md:px-auto">
           <Image
-            src="/hero.jpeg"
+            src="/hero.png"
             alt="Hands together symbolizing protection"
             className="w-full h-full object-cover rounded-lg shadow-xl"
             width={1150}
