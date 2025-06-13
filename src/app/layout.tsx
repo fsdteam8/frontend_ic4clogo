@@ -15,8 +15,8 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Coalition4Children",
-  description: "International Coalition4Children",
+  title: "Coalition4Children Inc.",
+  description: "International Coalition4Children Inc.",
 };
 
 export default function RootLayout({

@@ -130,7 +130,7 @@ export default function CoalitionDocument() {
       <main className="container pb-8 mt-5 md:mt-20">
         <div className="space-y-6 text-[16px] text-[#000000] text-justify">
           <h2 className="text-4xl font-[500] text-center my-8">
-            The International Coalition4Children Declaration
+            The International Coalition4Children Inc. Declaration
           </h2>
 
           <p>

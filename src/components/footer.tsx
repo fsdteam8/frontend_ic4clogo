@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between md:items-center items-start mb-8">
           <div>
             <h3 className="text-2xl font-[600] text-[#FFFFFF]">
-              International Coalition4Children
+              International Coalition4Children Inc.
             </h3>
             <p className="text-sm text-[#FFFFFF]">
               Protecting parental rights and children&apos;s innocence
@@ -32,7 +32,7 @@ const Footer = () => {
         </div>
         <div className="border-t-2 border-[#FFFFFF] pt-6 mt-6">
           <p className="text-center text-sm text-[#FFFFFF]">
-            © 2025 International Coalition4Children. All rights reserved.
+            © 2025 International Coalition4Children Inc. All rights reserved.
           </p>
         </div>
       </div>

@@ -137,11 +137,6 @@ export default function CoalitionDocument() {
             />
           </div>
         </div>
-
-        <h1 className="text-4xl font-semibold italic text-center mb-12">
-          International Coalition4Children
-        </h1>
-
         <section className="mb-12">
           <h2 className="text-3xl font-semibold italic text-center mb-6">
             Declaration

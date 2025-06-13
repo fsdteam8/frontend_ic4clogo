@@ -118,8 +118,8 @@ export default function Home() {
               Protecting Our Children&apos;s Future
             </h1>
             <p className="text-[26px] lg:text-[32px] font-[400] text-[#D3DDDF]">
-              Join the International Coalition4Children in safeguarding parental
-              rights and children&apos;s innocence
+              Join the International Coalition4Children Inc. in safeguarding
+              parental rights and children&apos;s innocence
             </p>
           </div>
         </div>
