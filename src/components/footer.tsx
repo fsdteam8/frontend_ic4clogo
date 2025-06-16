@@ -18,7 +18,7 @@ const Footer = () => {
                 <Mail className="h-4 w-4 text-white" />
               </span>
               <span className="text-[16px] font-[700]">
-                Contact Us: ic4c@gmail.com
+                Contact Us: ic4c@mail.com
               </span>
             </p>
           </div>
