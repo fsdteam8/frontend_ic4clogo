@@ -45,8 +45,10 @@ export default function SignupForm() {
   });
 
   async function onSubmit(values: FormData) {
+    setSubmissionError(null);
+
     try {
-      const response = await fetch(`http://168.231.118.91:8001/api/post/data`, {
+      const response = await fetch("/api/signup", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -57,10 +59,13 @@ export default function SignupForm() {
         }),
       });
 
+      const data = await response.json();
+
       if (!response.ok) {
-        const errorData = await response.json();
-        console.error("API Error:", errorData);
-        setSubmissionError("You have already signed the petition.");
+        console.error("API Error:", data);
+        setSubmissionError(
+          data.message || "You have already signed the petition."
+        );
         return;
       }
 
