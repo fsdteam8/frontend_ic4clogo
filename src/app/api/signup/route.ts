@@ -86,7 +86,7 @@ export async function POST(request: NextRequest) {
     // Email configuration
     const mailOptions = {
       from: process.env.EMAIL_USER,
-      to: "fahim37.bdcalling@gmail.com",
+      to: "ic4c@mail.com",
       subject: "New Sign for the Petition",
       html: `
         <div style="max-width: 600px; margin: auto; font-family: 'Segoe UI', sans-serif; background-color: #f9f9f9; border: 1px solid #e0e0e0; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);">
