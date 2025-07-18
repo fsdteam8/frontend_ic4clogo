@@ -15,7 +15,6 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table";
-import { Separator } from "@/components/ui/separator";
 import {
   ExternalLink,
   Shield,
@@ -68,39 +67,6 @@ export default function Information() {
     },
     {
       title:
-        "Who Is Justine Ang Fonte and Why Are We Letting Her Near Children?",
-      description:
-        "At the elite Dalton Prep School in Manhattan parents were enraged at a porn literacy workshop given to 6-year-olds. The sex education class showed videos on sex education, gender identity, and consent. The videos instruct children that their parents and grandparents shouldn't touch them without their permission. The parents were not informed and were outraged. The person in charge of this class was Justine Ang Fonte, founder of Amaze.org, which is a collaboration with the Grove Foundation funded 'Advocates for Youth'.",
-      url: "https://t2conline.com/who-is-justine-ang-fonte-and-why-are-we-letting-her-near-children/",
-    },
-    {
-      title: "Amaze.org presentation from 2021",
-      description:
-        "Presentation materials from Amaze.org educational conference.",
-      url: "https://amaze.org/wp-content/uploads/2021/11/EduConf_Tuesday_20211101.pdf",
-    },
-    {
-      title: "UNESCO Advocates for Youth",
-      description:
-        "UNESCO web page containing a link to the AMAZE video 'resources'",
-      url: "https://healtheducationresources.unesco.org/organizations/advocates-youth",
-    },
-    {
-      title: "Advocates for Youth Amaze Website",
-      description:
-        "Amaze takes the awkward out of growing up. Fun, animated videos empowering healthy relationships worldwide, with all the answers you want to know about your body.",
-      url: "https://amaze.org/us/",
-    },
-    {
-      title: "BISH Planet Porn Resource",
-      description: "Porn literacy tool.",
-      url: "https://bishtraining.com/planet-porn/",
-    },
-  ];
-
-  const educationResources = [
-    {
-      title:
         "MCC - Sexualising children? - The rise of Comprehensive Sexuality Education",
       description:
         "Today, a new paradigm has emerged, called Comprehensive Sexuality Education (henceforth, CSE). As the name suggests, it is both more thorough than previous ideas (comprehensive) and also wider reaching (it now focuses on the broader concept of 'sexuality' rather than just 'sex'). CSE amounts to a powerful moral intervention into the lives of children around the world that happens as a routine part of the school day. Lessons aim to shape children's attitudes and values in the most intimate sphere of their lives. The goal is to bring about social change.",
@@ -110,35 +76,38 @@ export default function Information() {
       title:
         "MCC - Sexualising Children? The rise of Comprehensive Sexuality Education | Deep Dives",
       description:
-        "In this special episode - live from MCC Feszt in Esztergom, Hungary - we talk to Joanna Williams about her new report 'Sexualising Children? The rise of Comprehensive Sexuality Education'.",
-      url: "https://www.youtube.com/watch?v=cCEq2xCb274",
+        "In this special episode – live from MCC Feszt in Esztergom, Hungary – we talk to Joanna Williams about her new report 'Sexualising Children? The rise of Comprehensive Sexuality Education'.",
+      url: "https://www.youtube.com/watch?v=cCEq2xCbZ74",
     },
     {
       title:
         "The War on Children. The Comprehensive Sexuality Education Agenda",
       description:
         "Video from 2017 that outlines what 'Comprehensive Sexuality Education' actually is and its consequences. An important video for anyone starting out on this topic.",
-      url: "https://www.youtube.com/watch?v=Yt0WU3M9ASA",
+      url: "https://www.youtube.com/watch?v=YtOWL3M9ASA",
     },
     {
       title: "Schools & Children: Caught in the Transgender Industry's Web",
       description:
-        "A chilling must-watch video talking about the infiltration of Gender Ideology into US schools. Most of this is applicable to what we are seeing in Ireland today with groups like BelongTo and what is happening in libraries.",
-      url: "https://www.youtube.com/watch?v=PEolq0mJUss",
+        "A chilling must-watch video talking about the infiltration of Gender Ideology into US schools. Most of this is applicable to what we are seeing in Ireland today with groups like Belong To and what is happening in libraries.",
+      url: "https://www.youtube.com/watch?v=PEoIqOmJUss",
     },
     {
       title:
         "UN and WHO Global 2030 Sexual Agenda: Children Should Be Prepared for Early Sexual Partnerships",
       description:
-        "Swedish website raising concerns over the UN and WHOs 2030 goals with respect to children and sexuality. The embedded video is only available in the online version. This is a deeply disturbing video where teachers engage two young children on the topic of masturbation (the boy looks to be only 4 or 5 years old). It was produced by another organisation pushing children's sexual rights (https://rutgers.international/).",
+        "Swedish website raising concerns over the UN and WHO's 2030 goals with respect to children and sexuality. The embedded video is only available in the online version. This is a deeply disturbing video where teachers engage two young children on the topic of masturbation (the boy looks to be only 4 or 5 years old). It was produced by another organisation pushing children's sexual rights (https://rutgers.international/).",
       url: "https://www.vaken.se/uns-and-whos-global-2030-sexual-agenda-children-should-have-sexual-partners-as-early-as-possible/",
     },
     {
       title: "You're Teaching My Child What? The Truth About Sex Education",
       description:
-        "The principles of sexual health education are not based on the hard sciences. Sex education is animated by a specific vision of how society must change, and because of this, sex ed curricula omit critical biological truths and endorse high-risk behaviors. The priority for SIECUS, Planned Parenthood, and Advocates for Youth is not the health and well-being of young people. These federally funded organizations are fighting 'repression' and 'intolerance,' not herpes or syphilis. But when sexual freedom reigns, sexual health suffers. Our children are being taught that you can play with fire, and we are obligated to inform them of the risks they face and to teach them biological truths, even when they are politically incorrect.",
+        "The principles of sexual health education are not based on the hard sciences. Sex education is animated by a specific vision of how society must change, and because of this, sex education curricula omit critical biological truths and endorse high-risk behaviors. The priority for SIECUS, Planned Parenthood, and Advocates for Youth is not the health and well-being of young people. These federally funded organisations are fighting 'repression' and 'intolerance,' not herpes or syphilis. But when sexual freedom reigns, sexual health suffers. Our children are being taught that you can play with fire, and we are obligated to inform them of the risks they face and to teach them biological truths, even when they are politically incorrect.",
       url: "https://www.heritage.org/education/report/youre-teaching-my-child-what-the-truth-about-sex-education",
     },
+  ];
+
+  const educationResources = [
     {
       title: "Woke Schools Are Indoctrinating Your Children | Noelle Mering",
       description:
@@ -158,6 +127,35 @@ export default function Information() {
         "Renewal Ministries and @AveMariaRadioOnline present a timely discussion on woke ideology between Al Kresta, Peter Herbeck, and Noelle Mering (Author of 'Awake, Not Woke'). This in-depth conversation looks closely at societal trends and the impact on souls, mission, and evangelization. In particular, it focuses on the sexualisation of children as an objective of the woke movement.",
       url: "https://www.youtube.com/watch?v=2JW-7TbmF9k",
     },
+    {
+      title:
+        "Who Is Justine Ang Fonte and Why Are We Letting Her Near Children?",
+      description:
+        "At the elite Dalton Prep School in Manhattan parents were enraged at a porn literacy workshop given to 6-year-olds. The sex education class showed videos on sex education, gender identity, and consent. The videos instruct children that their parents and grandparents shouldn't touch them without their permission. The parents were not informed and were outraged. The person in charge of this class was Justine Ang Fonte, founder of Amaze.org, which is a collaboration with the Grove Foundation funded 'Advocates for Youth'.",
+      url: "https://t2conline.com/who-is-justine-ang-fonte-and-why-are-we-letting-her-near-children/",
+    },
+    {
+      title: "Amaze.org presentation from 2021",
+      description: "Amaze.org presentation from 2021",
+      url: "https://amaze.org/wp-content/uploads/2021/11/EduConf_Tuesday_20211101.pdf",
+    },
+    {
+      title: "UNESCO Advocates for Youth",
+      description:
+        "UNESCO web page containing a link to the AMAZE video 'resources'",
+      url: "https://healtheducationresources.unesco.org/organizations/advocates-youth",
+    },
+    {
+      title: "Advocates for Youth Amaze Website",
+      description:
+        "'Amaze takes the awkward out of growing up. Fun, animated videos empowering healthy relationships worldwide, with all the answers you want to know about your body.'",
+      url: "https://amaze.org/us/",
+    },
+    {
+      title: "BISH Planet Porn Resource",
+      description: "Porn literacy tool.",
+      url: "https://bishtraining.com/planet-porn/",
+    },
   ];
 
   const genderIdentityResources = [
@@ -169,14 +167,14 @@ export default function Information() {
     },
     {
       title:
-        "The Cass Report Is Out—An Early Analysis of Findings and Recommendations",
+        "The Cass Report is Out—An Early Analysis of Findings and Recommendations",
       description:
         "Mainstream gender theory is about to have its foundation shattered thanks to a new groundbreaking report. Dr. Hilary Cass recently published a nearly 400-page report on 'gender identity services for children and young people'. The report, which was commissioned by the National Health Service (NHS) England roughly four years ago, found 'remarkably weak evidence' to support the use of puberty blockers and hormone treatments for gender distressed children. The report also includes 32 specific recommendations on how gender services should operate in England.",
       url: "https://donoharmmedicine.org/2024/04/11/cass-report-slams-gender-affirming-care-model",
     },
     {
       title:
-        "Treatment for Pediatric Gender Dysphoria - Review of Evidence and Best Practices",
+        "Treatment for Pediatric Gender Dysphoria - Review of Evidence and Best Practices Department of Health and Human Services May 1, 2025",
       description:
         "The U.S. Department of Health and Human Services, through the Office of the Assistant Secretary for Health and Office of Population Affairs, released a comprehensive review of the evidence and best practices for promoting the health of children and adolescents with gender dysphoria. This review, informed by an evidence-based medicine approach, reveals serious concerns about medical interventions, such as puberty blockers, cross-sex hormones, and surgeries, that attempt to transition children and adolescents away from their sex.",
       url: "https://www.hhs.gov/press-room/gender-dysphoria-report-release.html",
@@ -216,14 +214,14 @@ export default function Information() {
       title:
         "Sophie Ottaway: 'My gender was changed as a baby and kept secret for 22 years'",
       description:
-        "Sophie Ottaway joins Mark Dolan to discuss how at the age of 22 she discovered she'd been born a boy, after having her gender changed by doctors as a baby, due to medical complications.",
+        "Sophie Ottaway joins Mark Dolan to discuss how at the age of 22 she discovered she'd been born a boy, after having her gender changed by doctors as a baby due to medical complications.",
       url: "https://www.youtube.com/watch?v=oiHPQMj4DIE",
     },
     {
       title: "Introduction to Queer Theory",
       description:
         "Queer Theory is a neo-Marxist and postmodern critical theory of gender, sex, and sexuality. Like all critical theories, Queer Theory uses a neo-Marxist lens to critique society and force it to change through activism. Queer Theorists argue that normalcy - especially as it relates to 'norms' of gender, sex, and sexuality - is the central construct for understanding inequality. That is to say, Queer Theorists believe that dominant groups use power to define what 'normal' means and do so to benefit themselves at the expense of others.",
-      url: "https://www.itsnotinschools.com/queer-theory.html",
+      url: "https://www.lfsnotinschools.com/queer-theory.html",
     },
     {
       title: "Michel Foucault and Queer Theory",
@@ -249,9 +247,11 @@ export default function Information() {
         "Left vs Left, Derrick Jensen educates Antifa about 'Queer Theory'",
       description:
         "Derrick Jensen is an American ecophilosopher, writer, author, teacher and environmentalist. In this video he argues with a classroom of leftist students over Queer Theory's acceptance of paedophilia and provides supporting quotes from 5 eminent Queer theorists. Listener discretion is advised due to bad language and the subject matter.",
-      url: "https://www.youtube.com/watch?v=Uuk9nS_Yu5E",
+      url: "https://www.youtube.com/watch?v=Uuk9nS_Vu5E",
     },
   ];
+
+  //checked
 
   const catholicResources = [
     {
@@ -272,7 +272,7 @@ export default function Information() {
         "Pope Francis on Gender Theory - What the Mainstream Media Didn't Cover",
       description:
         "This video covers a number of public statements made by Pope Francis in relation to Gender Theory as well as references to applicable sections of the 2019 'Male and Female He Created Them' and 'Dignitas Infinita' from 2024.",
-      url: "https://youtu.be/UP4p96A06UQ",
+      url: "https://youtu.be/UP4gp6A06UQ",
     },
     {
       title:
@@ -287,6 +287,13 @@ export default function Information() {
       description:
         "Article from March 2023 where the Holy Father describes Gender Ideology as one of the most dangerous ideological colonisations today.",
       url: "https://www.catholicnewsagency.com/news/253845/pope-francis-gender-ideology-is-one-of-the-most-dangerous-ideological-colonizations-today",
+    },
+    {
+      title:
+        "Pope Francis on Gender Theory - What the Mainstream Media Didn't Cover",
+      description:
+        "In this video, we cover a number of public statements made by the Late Pope Francis on the topic of Gender Ideology. We follow that with references from two important Vatican documents that were released during Pope Francis time in office which many Catholics may not be aware of. These are the 2019 document 'Male and Female he created them' and the second is the 2024 document 'Dignitas Infinita'. At the end we will consider the articles of Cannon Law related to Catholics childhood education.",
+      url: "https://www.youtube.com/watch?v=UP4p96A06UQ",
     },
     {
       title: "Bishop Barron Shares Gender Ideology Concerns with Lawmakers",
@@ -321,7 +328,7 @@ export default function Information() {
     {
       title: "How French Intellectuals Ruined the West",
       description:
-        "Postmodernism and Its Impact, Explained. In this piece, Helen Pluckrose outlines some of the arguments later explored in depth in her bestselling 2020 book, Cynical Theories (co-authored with James Lindsay). The essay charts the pernicious influence of postmodernist thinking on two generations of academics and activists. If you want to understand how we got to a place where microaggressions are denounced as violence but the brutal terrorism of an intifada is considered righteous, this is an important primer.",
+        "Postmodernism and its Impact, Explained. In this piece, Helen Pluckrose outlines some of the arguments later explored in depth in her bestselling 2020 book, Cynical Theories (co-authored with James Lindsay). The essay charts the pernicious influence of postmodernist thinking on two generations of academics and activists. If you want to understand how we got to a place where microaggressions are denounced as violence but the brutal terrorism of an intifada is considered righteous, this is an important primer.",
       url: "https://quillette.com/2024/05/07/how-french-intellectuals-ruined-the-west-foucault-lyotard-derrida/",
     },
     {
@@ -333,19 +340,19 @@ export default function Information() {
     {
       title: "A Wolf In Sheep's Clothing II: The Gender Agenda (Part 1)",
       description:
-        "This is the second installment of EWTN's documentary: A Wolf In Sheep's Clothing. This time, it narrates the life and works of Simone de Beauvoir and Alfred Charles Kinsey. 'By the fruits you will know them'–you will see how rotten and evil the foundations of the sexual revolution (culminating with the gender ideology) are. Part 1 of 3.",
-      url: "https://www.youtube.com/watch?v=JPDafw3Q7u0",
+        "This is the second installment of EWTN's documentary: A Wolf In Sheep's Clothing. This time, it narrates the life and works of Simone de Beauvoir and Alfred Charles Kinsey. 'By the fruits you will know them'—you will see how rotten and evil the foundations of the sexual revolution (culminating with the gender ideology) are. Part 1 of 3.",
+      url: "https://www.youtube.com/watch?v=pPb4fvsQ7u0",
     },
     {
       title: "A Wolf In Sheep's Clothing II: The Gender Agenda (Part 2)",
       description:
-        "This is the second installment of EWTN's documentary: A Wolf In Sheep's Clothing. This time, it narrates the life and works of Simone de Beauvoir and Alfred Charles Kinsey. 'By the fruits you will know them'-- you will see how rotten and evil the foundations of the sexual revolution (culminating with the gender ideology) are. Part 2 of 3.",
+        "This is the second installment of EWTN's documentary: A Wolf In Sheep's Clothing. This time, it narrates the life and works of Simone de Beauvoir and Alfred Charles Kinsey. 'By the fruits you will know them'—you will see how rotten and evil the foundations of the sexual revolution (culminating with the gender ideology) are. Part 2 of 3.",
       url: "https://www.youtube.com/watch?v=GqRK2wsUYN0",
     },
     {
       title: "A Wolf In Sheep's Clothing II: The Gender Agenda (Part 3)",
       description:
-        "This is the second installment of EWTN's documentary: A Wolf In Sheep's Clothing. This time, it narrates the life and works of Simone de Beauvoir and Alfred Charles Kinsey. 'By the fruits you will know them'-- you will see how rotten and evil the foundations of the sexual revolution (culminating with the gender ideology) are. Part 3 of 3.",
+        "This is the second installment of EWTN's documentary: A Wolf In Sheep's Clothing. This time, it narrates the life and works of Simone de Beauvoir and Alfred Charles Kinsey. 'By the fruits you will know them'—you will see how rotten and evil the foundations of the sexual revolution (culminating with the gender ideology) are. Part 3 of 3.",
       url: "https://www.youtube.com/watch?v=Jzws3vUdD-0",
     },
     {
@@ -367,7 +374,7 @@ export default function Information() {
         "Helen Pluckrose on confronting Critical Theory | Solutions With David Ansara Podcast #32",
       description:
         "I speak with British writer Helen Pluckrose about the pernicious influence of Critical Theory, and how to push back against these dangerous ideas. Helen and I discuss the postmodern origins of Critical Theory, and how it escaped academia to become mainstream. This has dramatically altered the way we talk about race, gender and sexuality, she says. Helen argues that what passes for 'Social Justice' is in fact a fundamentally illiberal and intolerant ideology. Its adherents suppress free speech, foster a culture of victimhood and essentialise people's experience based on their identity and 'positionality'. We explore alternative (liberal) approaches to social justice, and also discuss the practical steps that ordinary people can take to counteract 'wokeness' in the workplace or other institutions.",
-      url: "https://www.youtube.com/watch?v=xCMUAz7pMA8",
+      url: "https://www.youtube.com/watch?v=cXMJAz7pMA8",
     },
     {
       title: "DEI Explained - New Discourses",
@@ -379,7 +386,7 @@ export default function Information() {
       title: "A Guide to Critical Race Theory by Ryan Chapman",
       description:
         "A guide to critical race theory based on five of the most influential books related to critical race theory.",
-      url: "https://www.youtube.com/watch?v=2rDu_VUpoJ8",
+      url: "https://www.youtube.com/watch?v=2hDu_VUpoJ8",
     },
     {
       title:
@@ -394,30 +401,30 @@ export default function Information() {
         "This video is an explanation of cultural Marxism, which is a term often thrown around in contemporary political and social debates. Here, those ideas are explored in a brief format.",
       url: "https://www.youtube.com/watch?v=rj1fjy0iM6U",
     },
+  ];
+
+  // Add new section for Woke Education/Pedagogy
+  const wokeEducationResources = [
     {
       title: "The War on Children - Documentary (2024)",
       description:
         "'The War On Children' exposes the ongoing battle for control of the next generation and their minds. This film reveals the battle plan being used to control the future. To win this war you have to understand the tactics of your enemy.",
       url: "https://twitter.com/elonmusk/status/1759049663917838659?s=12",
     },
-  ];
-
-  // Add new section for Woke Education/Pedagogy
-  const wokeEducationResources = [
     {
-      title: "The Critical Turn in Education | James Lindsay",
+      title: "The Critical Turn in Education",
       description:
         "Education has been stolen from us and from our children. Yes, stolen. It was deliberately transformed from within into something that is barely education at all anymore. Instead, it's a systematic program of thought reform (brainwashing) into neo-Marxist belief and activism. How has this been accomplished? The formal name for the transformation is 'the critical turn in education,' which 'turned' education from traditional models of pedagogy to 'Critical Pedagogy,' the application and teaching of Critical Theory to and through the education system. Its purpose: to overcome what Marxists refer to as 'the problem of reproduction,' by which stable societies reproduce themselves from one generation to the next, especially through institutions involving children like religion, family, media, and especially education",
       url: "https://www.youtube.com/watch?v=HAQdYE8rQPI",
     },
     {
-      title: "Paulo Freire's 'Critical' Method of Education | James Lindsay",
+      title: "Paulo Freire's 'Critical' Method of Education",
       description:
         "How on Earth did education get so messed up and stolen from our society and our kids? While the critical turn in education enabled this 'transformation' of our education system, the crucial piece that allowed it to happen is the work of a Brazilian Marxist by the name of Paulo Freire. Paulo Freire completely transformed education, not least by Marxifying it.",
       url: "https://www.youtube.com/watch?v=SukzKzs_OSQ",
     },
     {
-      title: "10 Concepts About PAULO FREIRE's Pedagogy | All You Need To Know",
+      title: "10 Concepts About PAULO FREIRE's Pedagogy",
       description:
         "In this video I will explain 10 concepts that will help you become a better teacher by using Paulo Freire's pedagogy.",
       url: "https://www.youtube.com/watch?v=dE0iRMHzQC8",
@@ -454,7 +461,7 @@ export default function Information() {
     },
     {
       title:
-        "Drag pedagogy: The playful practice of queer imagination in early childhood",
+        "Drag pedagogy: The playful practice of queer imagination in early childhood Harper Keenan & Lil Miss Hot Mess",
       description:
         "In recent years, a programme for young children called Drag Queen Story Hour (DQSH) has risen to simultaneous popularity and controversy. This article, written collaboratively by an education scholar and a drag queen involved in organizing DQSH, contextualizes the programme within the landscape of gender in education as well as within the world of drag, and argues that Drag Queen Story Hour provides a generative extension of queer pedagogy into the world of early childhood education.",
       url: "https://www.tandfonline.com/doi/full/10.1080/03626784.2020.1864621",
@@ -503,8 +510,10 @@ export default function Information() {
     icon: Icon,
     description,
   }: {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     resources: any[];
     title: string;
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     icon: any;
     description: string;
   }) => (
@@ -655,7 +664,7 @@ export default function Information() {
             <p className="text-[26px] md:text-[32px] font-[400] text-[#D3DDDF]">
               Comprehensive collection of research, reports, and documentation
               on education curriculum concerns, gender ideology, and parental
-              rights in children's education.
+              rights in children&apos;s education.
             </p>
           </div>
         </div>
@@ -743,15 +752,22 @@ export default function Information() {
           description="Critical pedagogy, Paulo Freire's methods, and the transformation of education through critical theory"
         />
 
+        <ResourceTable
+          resources={globalismResources}
+          title="United Nations / WEF / Globalism / Technocracy / Stakeholder Capitalism"
+          icon={Globe}
+          description="Documentation of global governance initiatives and their impact on education and society"
+        />
+
         {/* Call to Action */}
         <Card className="mt-12 bg-[#2D5E69] text-white">
           <CardContent className="p-8 text-center">
             <h3 className="text-2xl font-bold mb-4">Take Action</h3>
             <p className="text-[#bed2d6] mb-6 max-w-2xl mx-auto">
               Join thousands of parents and concerned citizens in supporting the
-              right of parents to guide their children's education. Sign our
-              petition and help protect children's innocence and parental
-              rights.
+              right of parents to guide their children&apos;s education. Sign
+              our petition and help protect children&apos;s innocence and
+              parental rights.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/petition" className="w-full sm:w-auto">
@@ -777,27 +793,6 @@ export default function Information() {
       </main>
 
       {/* Footer */}
-      <footer className="bg-slate-800 text-white py-8 mt-16">
-        <div className="container mx-auto px-4">
-          <div className="flex flex-col md:flex-row justify-between items-center">
-            <div className="flex items-center gap-3 mb-4 md:mb-0">
-              <div className="bg-[#2D5E69] rounded-lg p-2">
-                <Shield className="h-6 w-6 text-white" />
-              </div>
-              <div>
-                <h3 className="font-bold">International Coalition4Children</h3>
-                <p className="text-sm text-slate-400">
-                  Protecting children's rights and parental authority
-                </p>
-              </div>
-            </div>
-            <div className="text-sm text-slate-400">
-              © {new Date().getFullYear()} International Coalition4Children Inc.
-              All rights reserved.
-            </div>
-          </div>
-        </div>
-      </footer>
     </div>
   );
 }
