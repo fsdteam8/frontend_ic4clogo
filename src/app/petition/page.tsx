@@ -18,6 +18,7 @@ const navLinks = [
   { name: "Home", href: "/" },
   { name: "Petition", href: "/petition" },
   { name: "About", href: "/about" },
+  { name: "Information", href: "/information" },
 ];
 
 export default function CoalitionDocument() {
