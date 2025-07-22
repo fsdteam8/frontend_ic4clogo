@@ -23,6 +23,7 @@ import {
   AlertTriangle,
   Globe,
   Menu,
+  Video,
 } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
@@ -77,20 +78,20 @@ export default function Information() {
         "MCC - Sexualising Children? The rise of Comprehensive Sexuality Education | Deep Dives",
       description:
         "In this special episode – live from MCC Feszt in Esztergom, Hungary – we talk to Joanna Williams about her new report 'Sexualising Children? The rise of Comprehensive Sexuality Education'.",
-      url: "https://www.youtube.com/watch?v=cCEq2xCbZ74",
+      url: "https://www.youtube.com/watch?v=cCEq2xCb274",
     },
     {
       title:
         "The War on Children. The Comprehensive Sexuality Education Agenda",
       description:
         "Video from 2017 that outlines what 'Comprehensive Sexuality Education' actually is and its consequences. An important video for anyone starting out on this topic.",
-      url: "https://www.youtube.com/watch?v=YtOWL3M9ASA",
+      url: "https://www.youtube.com/watch?v=Yt0WU3M9ASA",
     },
     {
       title: "Schools & Children: Caught in the Transgender Industry's Web",
       description:
         "A chilling must-watch video talking about the infiltration of Gender Ideology into US schools. Most of this is applicable to what we are seeing in Ireland today with groups like Belong To and what is happening in libraries.",
-      url: "https://www.youtube.com/watch?v=PEoIqOmJUss",
+      url: "https://www.youtube.com/watch?v=PEolq0mJUss",
     },
     {
       title:
@@ -196,7 +197,7 @@ export default function Information() {
       title: "Lobotomies - Past Medical Scandals and The WPATH Files - Part 1",
       description:
         "Continuing our series on the impact of the WPATH Files, join journalist and WPATH Files author Mia Hughes, Genspect's Stella O'Malley, and Carrie Mendoza, MD to explore past medical scandals. What can we learn from the rise and fall of lobotomies as a practice to treat mental illness? How do these lessons help us understand the current medical practice to treat gender dysphoria and how to construct safeguards for children and vulnerable adults? Read the section on lobotomies in the WPATH Files (pp. 53-57).",
-      url: "https://www.youtube.com/watch?v=9XNHh-Nzmlo",
+      url: "https://youtu.be/9XNHh-NZmlo",
     },
     {
       title: "Why to Reject the WHO Over 'Gender-Affirming Care'",
@@ -218,10 +219,16 @@ export default function Information() {
       url: "https://www.youtube.com/watch?v=oiHPQMj4DIE",
     },
     {
+      title: "What Is Queer Theory? What You Must Know",
+      description:
+        "Talk by author of 'The Queering of the American Child', Logan Lancing, that was filmed in New Mexico in September of 2024 as part of the Save Our Children Initiative.",
+      url: "https://www.youtube.com/watch?v=kcvGU_gpFg4",
+    },
+    {
       title: "Introduction to Queer Theory",
       description:
         "Queer Theory is a neo-Marxist and postmodern critical theory of gender, sex, and sexuality. Like all critical theories, Queer Theory uses a neo-Marxist lens to critique society and force it to change through activism. Queer Theorists argue that normalcy - especially as it relates to 'norms' of gender, sex, and sexuality - is the central construct for understanding inequality. That is to say, Queer Theorists believe that dominant groups use power to define what 'normal' means and do so to benefit themselves at the expense of others.",
-      url: "https://www.lfsnotinschools.com/queer-theory.html",
+      url: "https://www.itsnotinschools.com/queer-theory.html",
     },
     {
       title: "Michel Foucault and Queer Theory",
@@ -247,7 +254,7 @@ export default function Information() {
         "Left vs Left, Derrick Jensen educates Antifa about 'Queer Theory'",
       description:
         "Derrick Jensen is an American ecophilosopher, writer, author, teacher and environmentalist. In this video he argues with a classroom of leftist students over Queer Theory's acceptance of paedophilia and provides supporting quotes from 5 eminent Queer theorists. Listener discretion is advised due to bad language and the subject matter.",
-      url: "https://www.youtube.com/watch?v=Uuk9nS_Vu5E",
+      url: "https://www.youtube.com/watch?v=Uuk9nS_Yu5E",
     },
   ];
 
@@ -267,13 +274,13 @@ export default function Information() {
         "In this 2024 document approved by Pope Francis, the Vatican espouses the infinite dignity of the human person and linked to that it restates the Catholic Teaching on abortion, surrogacy, assisted dying and gender ideology (which it insists must be rejected). This document is a must read for any Catholic as well as any other person whether of faith or not who is interested in understanding the Catholic position on these issues and the rationale behind that position.",
       url: "https://press.vatican.va/content/salastampa/it/bollettino/pubblico/2024/04/08/0284/00588.html#en",
     },
-    {
-      title:
-        "Pope Francis on Gender Theory - What the Mainstream Media Didn't Cover",
-      description:
-        "This video covers a number of public statements made by Pope Francis in relation to Gender Theory as well as references to applicable sections of the 2019 'Male and Female He Created Them' and 'Dignitas Infinita' from 2024.",
-      url: "https://youtu.be/UP4gp6A06UQ",
-    },
+    // {
+    //   title:
+    //     "Pope Francis on Gender Theory - What the Mainstream Media Didn't Cover",
+    //   description:
+    //     "This video covers a number of public statements made by Pope Francis in relation to Gender Theory as well as references to applicable sections of the 2019 'Male and Female He Created Them' and 'Dignitas Infinita' from 2024.",
+    //   url: "https://youtu.be/UP4gp6A06UQ",
+    // },
     {
       title:
         "Vatican calls non-binary gender 'fictitious' in report tackling 'education crisis' over sexuality",
@@ -296,6 +303,13 @@ export default function Information() {
       url: "https://www.youtube.com/watch?v=UP4p96A06UQ",
     },
     {
+      title:
+        "A CATHOLIC RESPONSE TO GENDER IDENTIT Y THEORY: Catechesis and Pastoral Guidelines",
+      description:
+        "A sample document for the Diocese of Portland, Oregon to provide clarity on the Catholic Church’s teaching on gender identity theory. These guidelines are offered as a teaching and formation resource and also as encouragement and hope for everyone working with those dealing with gender issues.",
+      url: "https://files.ecatholic.com/12494/documents/2023/1/EN_A%20Catholic%20Response%20to%20Gender%20Identity%20Theory_FINAL2023.pdf?t=1674605305000",
+    },
+    {
       title: "Bishop Barron Shares Gender Ideology Concerns with Lawmakers",
       description:
         "Bishop Barron expresses his concerns over Gender Ideology and related legislation that is being introduced. He encourages viewers to speak up on this issue and lobby lawmakers.",
@@ -311,6 +325,13 @@ export default function Information() {
   ];
 
   const criticalTheoryResources = [
+    {
+      title:
+        "The Rise of “Woke”: From Postmodernism and Critical Theory To Identity Politics - Stephen Hicks",
+      description:
+        "Identity politics dominates our public discussion: Critical Race Theory, the 1619 Project, Black Lives Matter, Privilege, victim versions of Feminism, Non-binary, Trans, etc. Learn how postmodernism and critical theory are being mobilized (and weaponized) today.",
+      url: "https://www.youtube.com/watch?v=6TTZswYxGKM",
+    },
     {
       title:
         "A Christian Response to Wokeness (FULL VIDEO) | Noelle Mering | Leadership Institute",
@@ -341,7 +362,7 @@ export default function Information() {
       title: "A Wolf In Sheep's Clothing II: The Gender Agenda (Part 1)",
       description:
         "This is the second installment of EWTN's documentary: A Wolf In Sheep's Clothing. This time, it narrates the life and works of Simone de Beauvoir and Alfred Charles Kinsey. 'By the fruits you will know them'—you will see how rotten and evil the foundations of the sexual revolution (culminating with the gender ideology) are. Part 1 of 3.",
-      url: "https://www.youtube.com/watch?v=pPb4fvsQ7u0",
+      url: "https://www.youtube.com/watch?v=JPDafw3Q7u0",
     },
     {
       title: "A Wolf In Sheep's Clothing II: The Gender Agenda (Part 2)",
@@ -360,7 +381,7 @@ export default function Information() {
         "Postmodern Religion and the Faith of Social Justice - James A. Lindsay and Mike Nayna",
       description:
         "Increasingly, we are seeing insistences that Social Justice has become a new religion. The purpose of this essay is to explore this topic in some depth. Because this essay is inordinately long—because the topic is inordinately complicated—it is broken into sections, as listed below. The reader is encouraged to engage with it in pieces and to treat it as he or she would a short book on this topic.",
-      url: "https://areomagazine.com/2018/12/18/postmodern-religion-and-the-faith-of-social-justice/",
+      url: "https://newdiscourses.com/2020/06/postmodern-religion-faith-social-justice/",
     },
     {
       title:
@@ -374,7 +395,7 @@ export default function Information() {
         "Helen Pluckrose on confronting Critical Theory | Solutions With David Ansara Podcast #32",
       description:
         "I speak with British writer Helen Pluckrose about the pernicious influence of Critical Theory, and how to push back against these dangerous ideas. Helen and I discuss the postmodern origins of Critical Theory, and how it escaped academia to become mainstream. This has dramatically altered the way we talk about race, gender and sexuality, she says. Helen argues that what passes for 'Social Justice' is in fact a fundamentally illiberal and intolerant ideology. Its adherents suppress free speech, foster a culture of victimhood and essentialise people's experience based on their identity and 'positionality'. We explore alternative (liberal) approaches to social justice, and also discuss the practical steps that ordinary people can take to counteract 'wokeness' in the workplace or other institutions.",
-      url: "https://www.youtube.com/watch?v=cXMJAz7pMA8",
+      url: "https://www.youtube.com/watch?v=xCMUAz7pMA8",
     },
     {
       title: "DEI Explained - New Discourses",
@@ -386,7 +407,7 @@ export default function Information() {
       title: "A Guide to Critical Race Theory by Ryan Chapman",
       description:
         "A guide to critical race theory based on five of the most influential books related to critical race theory.",
-      url: "https://www.youtube.com/watch?v=2hDu_VUpoJ8",
+      url: "https://www.youtube.com/watch?v=2rDu_VUpoJ8",
     },
     {
       title:
@@ -467,6 +488,12 @@ export default function Information() {
       url: "https://www.tandfonline.com/doi/full/10.1080/03626784.2020.1864621",
     },
     {
+      title: "Charlotte Thomson Iserbyt - Deliberate Dumbing Down of the World",
+      description:
+        "A chilling 10 minute edit of a much larger series of videos on the same topic. 'The Purpose of Education is to change the thoughts, actions and feelings of students - through challenging the students fixed beliefs' - removing their belief in God and their country. ",
+      url: "https://www.youtube.com/watch?v=laS4V8FZgQo",
+    },
+    {
       title:
         "The Fight for New College - A short documentary on the counterrevolution in higher education",
       description:
@@ -501,6 +528,142 @@ export default function Information() {
       description:
         "Discover how the heads of all G20 governments, from the UK and US to Russia and China, are undemocratically transitioning us away from Free-Market Capitalism to a global, authoritarian political system called Stakeholder Capitalism. To make this available for free, we need help paying the production costs.",
       url: "https://www.youtube.com/watch?v=cVupsbYhw_c",
+    },
+    {
+      title: "1984 vs Brave New World - How Freedom Dies",
+      description:
+        "George Orwell’s writings have experienced a spike in popularity over the past several decades and for a good reason – modern societies are becoming ever more like the dystopia Orwell depicted in his novel 1984. Whether it be mass surveillance, the incessant use of propaganda, perpetual war, the manipulation of language, or the cult of personality surrounding political leaders, many consider Orwell’s novel to be prescient.While the West remains freer than the dystopian society of 1984, the trend of more and more power being concentrated in the hands of politicians and bureaucrats does not bode well for those who favour a free society.",
+      url: "https://www.youtube.com/watch?v=m9C3vcRlBOY",
+    },
+  ];
+  const organizationsResources = [
+    {
+      title: "International Coalition for Children (IC4C)",
+      description:
+        "Protecting Our Children’s Future - safeguarding parental rights and children’s innocence.",
+      url: "https://internationalcoalition4children.org/",
+    },
+    {
+      title: "Genspect",
+      description:
+        "A healthy approach to sex and gender - An excellent reference site on the topic.",
+      url: "https://genspect.org/",
+    },
+    {
+      title: "SEGM - Society for Evidence Based Gender Medicine",
+      description:
+        "Aim to promote safe, compassionate, ethical and evidence-informed healthcare for children, adolescents, and young adults with gender dysphoria",
+      url: "https://segm.org/", // Note: Original PDF had YouTube link here which seemed incorrect
+    },
+    {
+      title: "Sex Matters",
+      description:
+        "Mission: to promote clarity about sex in law, policy and language in order to protect everybody’s rights. Sex Matters is a human-rights organisation.",
+      url: "https://sex-matters.org/",
+    },
+    {
+      title: "Transgender Trend",
+      description:
+        "We are an organisation of parents, professionals and academics based in the UK who are concerned about the current trend to diagnose children as transgender, including the unprecedented number of teenage girls suddenly self-identifying as ‘trans’ (Rapid Onset Gender Dysphoria or ROGD). We are also concerned about legislation which places transgender rights above the right to safety for girls and young women in public toilets and changing rooms along with fairness for girls in sport.",
+      url: "https://www.transgendertrend.com/",
+    },
+    {
+      title: "The Deliberate Dumbing Down of America",
+      description:
+        "A website dedicated to the work of Charlotte Thomson Iserbyt which chronicals the history of US education and it's dumbing down and collectivisation at the hands of Humanists, Marxists and the Billionaires and their Foundations who supported them. Given the globalist nature of the later's agenda, the material is also applicable at a global level. ",
+      url: "https://deliberatedumbingdown.com/ddd/",
+    },
+    {
+      title: "New Culture Forum",
+      description:
+        "Analyzes socio-political structures and their impact on society.",
+      url: "https://www.newcultureforum.org.uk/",
+    },
+    {
+      title: "New Discourses",
+      description:
+        "James Lindsay's website focused on pursuing the light of objective truth in subjective darkness. ",
+      url: "https://newdiscourses.com/",
+    },
+    {
+      title: "Family Watch International",
+      description:
+        "Focused on countering the Sexuality Education agenda and promoting the family. Contains a lot of very good documentaries on this and related topics.",
+      url: "https://familywatch.org/",
+    },
+    {
+      title: "Family Watch International Documentaries",
+      description:
+        "Link to a series of documentaries focused on child protection and family values.",
+      url: "https://familywatch.org/resources/documentaries/#.XhD9MhdKhQI",
+    },
+    {
+      title: "LGB Alliance – Defending the rights of lesbians and children",
+      description:
+        "A UK organisation for gay, lesbian and bisexual people set up to defend the rights of lesbians and oppose the teaching of gender ideology in schools.",
+      url: "https://lgballiance.org.uk/facts/",
+    },
+    {
+      title: "Influence Watch",
+      description:
+        "Use this site to check out the linkages between a person or organisation and other people and organisations. A quick check can tell you a lot.",
+      url: "https://www.influencewatch.org/",
+    },
+  ];
+
+  const youtubeResources = [
+    {
+      title: "International Coalition 4 Children (IC4C)",
+      description:
+        "Protecting Our Children's Future - safeguarding parental rights and children's innocence.",
+      url: "https://www.youtube.com/channel/UCvlzrHFl4kdijP9TEO6wEpg",
+    },
+    {
+      title: "Genspect",
+      description: "An excellent resource in the area of sex and gender.",
+      url: "https://www.youtube.com/@genspect",
+    },
+    {
+      title: "SEGM – Society for Evidence Based Gender Medicine",
+      description:
+        "Aim to promote safe, compassionate, ethical and evidence-informed healthcare for children, adolescents, and young adults with gender dysphoria",
+      url: "https://www.youtube.com/@segm_ebm", // Placeholder - original link was invalid
+    },
+    {
+      title: "New Discourses ",
+      description:
+        "James Lindsay's channel focused on pursuing the light of objective truth in subjective darkness. ",
+      url: "https://www.youtube.com/@newdiscourses", // Placeholder
+    },
+    {
+      title: "Carlos Ruffo",
+      description:
+        "Chris Ruffo is a conservative author/activist fighting woke ideology.",
+      url: "https://www.youtube.com/@christopherrufo", // Placeholder
+    },
+    {
+      title: "Forbes Breaking News",
+      description:
+        "US News Agency that covers controversial issues not covered elsewhere.",
+      url: "https://www.youtube.com/@ForbesBreakingNews",
+    },
+    {
+      title: "American College of Pediatricians",
+      description:
+        " Promoting the Non-Medicalisation of Youth wrt gender issues.",
+      url: "https://www.youtube.com/@AmericanCollegeofPediatricians",
+    },
+    {
+      title: "Logan Lancing",
+      description:
+        "Developed as a tool to help you understand what the ideologies, politics and theories are, where they come from, and how they show up in your child's classroom.",
+      url: "https://www.youtube.com/@loganlancing",
+    },
+    {
+      title: "Academy of Ideas",
+      description:
+        "A channel that looks at socio-political structures and ideologies, and their impact on society and the human person.",
+      url: "https://www.youtube.com/@academyofideas",
     },
   ];
 
@@ -757,6 +920,20 @@ export default function Information() {
           title="United Nations / WEF / Globalism / Technocracy / Stakeholder Capitalism"
           icon={Globe}
           description="Documentation of global governance initiatives and their impact on education and society"
+        />
+
+        <ResourceTable
+          resources={organizationsResources}
+          title="Organisations and Websites of Interest"
+          icon={Globe}
+          description="Key organizations addressing gender ideology and child protection"
+        />
+
+        <ResourceTable
+          resources={youtubeResources}
+          title="YouTube Channels of Interest"
+          icon={Video}
+          description="Video resources on gender ideology and related topics"
         />
 
         {/* Call to Action */}
